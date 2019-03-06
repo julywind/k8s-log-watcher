@@ -6,5 +6,7 @@ To install:
 1. `npm i`
 2. `npm run start`
 
+默认访问地址: http://localhost:3000/
+
 # 说明
     本项目默认使用与ksyun，如果需要在别的云服务上使用，修改libs/getPods.js中的对应命令即可
