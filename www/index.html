@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>K8S日志查看</title>
+    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/index.js"></script>
+
+</head>
+<body class="el-container">
+    <div class="el-header" >
+        <select id="ns_selector" onchange="onNSChanged(this.value)">
+            <option>命名空间</option>
+        </select>
+
+        <select id="app_selector" onchange="onAppChanged(this.value)">
+            <option>应用</option>
+        </select>
+
+        <select id="pod_selector" onchange="onPodChanged(this.value)">
+            <option>实例</option>
+        </select>
+        <button class="startBtn">开始</button>
+        <button class="stopBtn">关闭</button>
+        <button class="clearLog">清空</button>
+    </div>
+    <div id="log-container" style="height: 700px; word-wrap: normal ; overflow-y: scroll; background: #333; color: #aaa; padding: 10px;">
+        <div>
+        </div>
+    </div>
+</body>
+</html>

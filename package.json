@@ -1,0 +1,23 @@
+{
+  "name": "logwatcher2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "latest",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-parser": "^1.0.7",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-websocket": "^5.0.1",
+    "path": "^0.12.7"
+  }
+}
